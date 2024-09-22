@@ -1,0 +1,42 @@
+<suite name = "Adhoc" parallel = "tests" thread-count = "3">
+<!-- 5th class
+because now we are using multiple browsers at the same time so added them under function instead of a suite level
+<parameter name = "browsers" value = "Chrome"></parameter>
+<parameter name = "websites" value = "https://www.amazon.com"></parameter> 
+OR add parallel on suite level to run all the browser at the same time. it says "tests" and it's a value which has to be this because it's not a variable' '
+6th Class of listener didn't workb'
+-->
+<listeners>
+<listeners class-name = "Listener">
+</listeners>
+<test name = "function">
+<parameter name = "browsers" value = "Chrome"></parameter>
+<parameter name = "websites" value = "https://www.amazon.com"></parameter>
+<!-- <parameter name = "websites" value = "https://www.protrainingtech.com/contact"></parameter> -->
+<classes>
+<class name = "Pro.Training.Tech.Students.SecondClass"></class>
+<class name = "Pro.Training.Tech.Students.FourthClass"></class>
+<class name = "Pro.Training.Tech.Students.FindElements"></class>
+<!-- <class name = "Pro.Training.Tech.Students.ContactUsForm"></class> -->
+</classes>
+</test>
+<test name = "functions">
+<parameter name = "browsers" value = "Edge"></parameter>
+<parameter name = "websites" value = "https://www.amazon.com"></parameter>
+<classes>
+<class name = "Pro.Training.Tech.Students.SecondClass"></class>
+<class name = "Pro.Training.Tech.Students.FourthClass"></class>
+<class name = "Pro.Training.Tech.Students.FindElements"></class>
+</classes>
+</test>
+<test name = "functionss">
+<parameter name = "browsers" value = "Firefox"></parameter>
+<parameter name = "websites" value = "https://www.amazon.com"></parameter>
+<classes>
+<class name = "Pro.Training.Tech.Students.SecondClass"></class>
+<class name = "Pro.Training.Tech.Students.FourthClass"></class>
+<class name = "Pro.Training.Tech.Students.FindElements"></class>
+</classes>
+</test>
+</listeners>
+</suite>

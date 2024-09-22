@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Adhoc]">
+  <test thread-count="3" parallel="tests" name="functionss(failed)">
+    <parameter name="websites" value="https://www.amazon.com"/>
+    <parameter name="browsers" value="Firefox"/>
+    <classes>
+      <class name="Pro.Training.Tech.Students.SecondClass">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="f"/>
+          <include name="beforeMethod"/>
+          <include name="a"/>
+        </methods>
+      </class> <!-- Pro.Training.Tech.Students.SecondClass -->
+      <class name="Pro.Training.Tech.Students.FourthClass">
+        <methods>
+          <include name="f"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Pro.Training.Tech.Students.FourthClass -->
+    </classes>
+  </test> <!-- functionss(failed) -->
+  <test thread-count="3" parallel="tests" name="function(failed)">
+    <parameter name="websites" value="https://www.amazon.com"/>
+    <parameter name="browsers" value="Chrome"/>
+    <classes>
+      <class name="Pro.Training.Tech.Students.SecondClass">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="f"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Pro.Training.Tech.Students.SecondClass -->
+      <class name="Pro.Training.Tech.Students.FourthClass">
+        <methods>
+          <include name="f"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Pro.Training.Tech.Students.FourthClass -->
+    </classes>
+  </test> <!-- function(failed) -->
+  <test thread-count="3" parallel="tests" name="functions(failed)">
+    <parameter name="websites" value="https://www.amazon.com"/>
+    <parameter name="browsers" value="Edge"/>
+    <classes>
+      <class name="Pro.Training.Tech.Students.FourthClass">
+        <methods>
+          <include name="f"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Pro.Training.Tech.Students.FourthClass -->
+    </classes>
+  </test> <!-- functions(failed) -->
+</suite> <!-- Failed suite [Adhoc] -->
