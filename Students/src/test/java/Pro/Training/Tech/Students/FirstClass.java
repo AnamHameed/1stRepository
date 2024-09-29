@@ -27,6 +27,9 @@ public class FirstClass {
   @Test (priority = 0)
   public void f() throws InterruptedException {
 	  System.out.println("This is Test Annotation");
+	  String currentwindow=driver.getWindowHandle();
+	System.out.println(currentwindow);
+		
 	  WebElement bestsellers = driver.findElement(By.linkText("Best Sellers"));
 		
 	  Actions ob = new Actions (driver);

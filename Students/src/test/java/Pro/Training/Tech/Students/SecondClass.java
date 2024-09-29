@@ -1,5 +1,5 @@
 package Pro.Training.Tech.Students;
-//TestNG - 2nd Class - 9/1/2024
+//TestNG - 2nd Class - 9/1/2024 - = Sir's Searches class
 //same as PageObjectModel class from Sir Saleem
 //3rd class is also in as a soft assert class
 //3rd Class - Dependency of one method on another

@@ -1,4 +1,5 @@
 package Pro.Training.Tech.Students;
+//6th Class - 8/31/2024 - Multiplebrowserwindows is sir's class name
 import java.util.Iterator;
 import java.util.Set;
 
@@ -14,7 +15,7 @@ import com.google.common.collect.Iterators;
 
 
 public class multiplewindows {
-//6th Class - 8/31/2024
+
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 /*

@@ -40,6 +40,14 @@ public class teesriclass {
 		
 		WebElement password = driver.findElement(By.id("password_step_input"));
 		password.sendKeys("idk");
+		
+	/*WebElement forgtlk=driver.findElement(By.linkText("Forgot password?"));
+	WebElement forgtlk=driver.findElement(By.partialLinkText("Forgot"));
+	forgtlk.click();*/ //Sir's code
+		
+		
+		
+		
 //select is a tag from a drop down menu when trying to select a month in the creating new account. select tag is special in selenium, we will creat the object of the class
 		WebElement month = driver.findElement(By.name("birthday_month"));
 		Select ob = new Select(month);

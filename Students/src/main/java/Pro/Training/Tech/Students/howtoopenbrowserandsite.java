@@ -1,5 +1,5 @@
 package Pro.Training.Tech.Students;
-//2ND DAY
+//2ND DAY - Ibrowsers is Sir's class
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 

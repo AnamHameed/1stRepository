@@ -1,5 +1,5 @@
 package Pro.Training.Tech.Students;
-//5th Class
+//5th Class - Rights - Sir's class name
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -19,6 +19,14 @@ public class rightclick {
 		driver.manage().window().maximize();
 		
 		WebElement rightclick = driver.findElement(By.xpath("//img[@style='cursor: pointer;']"));
+		
+/*	//Sir Saleem's code
+		driver.manage().timeouts().implicitlyWait(100,TimeUnit.SECONDS);
+		WebDriverWait oj=new WebDriverWait(driver, "");
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(100));
+		WebElement rightjk=driver.findElement(By.xpath("//img[@style='cursor: pointer;']"));
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//img[@style='cursor: pointer']")));
+*/
 		
 		Actions ob = new Actions(driver);
 		Thread.sleep(1000);

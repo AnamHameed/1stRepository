@@ -1,5 +1,5 @@
 package Pro.Training.Tech.Students;
-//3RD CLASS
+//3RD CLASS - selector is sir's class name
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -40,6 +40,9 @@ public class absolutexpath {
 		Select ob = new Select(month);
 		ob.selectByIndex(0);
 		Thread.sleep(1000);
+		//ob.selectByValue("6");
+		//Thread.sleep(6000);
+		//ob.selectByVisibleText("Aug"); //these 3 lines are in Sir Saleem's code
 		WebElement day = driver.findElement(By.xpath("(/html/body/div/div/div/div/div/div/div/div/form/div/div/div/span/span/select)[2]"));
 		Select obj = new Select(day);
 		obj.selectByIndex(7);
